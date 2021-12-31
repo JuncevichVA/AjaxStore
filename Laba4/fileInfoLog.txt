@@ -1,0 +1,189 @@
+info: group=all groups, page =1
+info: group=Контроллеры, page =1
+info: group=Контроллеры, page =1
+info: group=Датчики пожарные, page =1
+info: group=Датчики водяные, page =1
+info: group=Рэлле, page =1
+info: group=Средства оповещения, page =1
+User logged in.
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=Контроллеры, page =1
+info: group=Датчики пожарные, page =1
+info: group=Датчики охранные, page =1
+info: group=Датчики водяные, page =1
+info: group=Датчики водяные, page =1
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=Рэлле, page =1
+info: group=Рэлле, page =1
+info: group=Рэлле, page =1
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=Датчики пожарные, page =2
+info: group=Датчики охранные, page =2
+info: group=Датчики водяные, page =2
+info: group=Контроллеры, page =2
+info: group=all groups, page =2
+info: group=all groups, page =2
+info: group=Контроллеры, page =2
+info: group=Рэлле, page =2
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=Датчики пожарные, page =1
+info: group=Датчики охранные, page =1
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=Контроллеры, page =2
+info: group=Контроллеры, page =1
+info: group=Датчики охранные, page =1
+19.11.201914:26:09: url: / returns 200
+info: group=all groups, page =1
+19.11.201914:27:16: url: /Catalog returns 200
+info: group=Контроллеры, page =1
+19.11.201914:27:22: url: /Catalog?group=1 returns 200
+info: group=Датчики водяные, page =1
+19.11.201914:27:24: url: /Catalog?group=4 returns 200
+info: group=Датчики пожарные, page =1
+19.11.201914:27:26: url: /Catalog?group=2 returns 200
+info: group=Датчики водяные, page =1
+19.11.201914:27:30: url: /Catalog?group=4 returns 200
+info: group=Датчики охранные, page =1
+19.11.201914:27:32: url: /Catalog?group=3 returns 200
+info: group=Средства оповещения, page =1
+19.11.201914:27:33: url: /Catalog?group=6 returns 200
+info: group=Контроллеры, page =1
+19.11.201914:27:36: url: /Catalog?group=1 returns 200
+info: group=all groups, page =1
+19.11.201914:27:37: url: /Catalog returns 200
+info: group=all groups, page =2
+19.11.201914:27:38: url: /Catalog/Page_2 returns 200
+info: group=all groups, page =1
+19.11.201914:27:39: url: /Catalog/Page_1 returns 200
+info: group=all groups, page =2
+19.11.201914:27:40: url: /Catalog/Page_2 returns 200
+info: group=all groups, page =1
+19.11.201914:27:41: url: /Catalog/Page_1 returns 200
+19.11.201914:36:23: url: /GET/api/Ajaxes returns 404
+19.11.201915:28:31: url: /xxx/api/Ajaxes returns 404
+19.11.201915:34:48: url: /Ajaxes?group=3. returns 404
+19.11.201915:36:31: url: /Ajaxes?group=3. returns 404
+19.11.201915:36:59: url: /Ajaxes?group=3. returns 404
+User logged out.
+19.11.201915:48:08: url: /Identity/Account/Logout?returnurl=%2FCart returns 302
+User logged in.
+19.11.201915:48:15: url: /Identity/Account/Login returns 302
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=all groups, page =1
+info: group=all groups, page =1
+User logged in.
+22.11.201919:14:59: url: /Identity/Account/Login returns 302
+info: group=all groups, page =1
+22.11.201919:15:09: url: /Cart/Add/1?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201919:15:10: url: /Cart/Add/2?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201919:15:11: url: /Cart/Add/3?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201919:15:15: url: /Cart/Delete/1 returns 302
+22.11.201919:15:15: url: /Cart/Delete/3 returns 302
+22.11.201919:15:16: url: /Cart/Delete/2 returns 302
+info: group=all groups, page =1
+info: group=all groups, page =1
+22.11.201920:11:19: url: /api/Ajaxes/undefined returns 400
+22.11.201920:11:20: url: /api/Ajaxes/undefined returns 400
+22.11.201920:11:20: url: /api/Ajaxes/undefined returns 400
+22.11.201920:11:22: url: /api/Ajaxes/undefined returns 400
+22.11.201920:11:22: url: /api/Ajaxes/undefined returns 400
+22.11.201920:11:22: url: /api/Ajaxes/undefined returns 400
+User logged in.
+22.11.201920:11:48: url: /Identity/Account/Login returns 302
+22.11.201920:12:28: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:29: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:30: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:30: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:30: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:31: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:31: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:31: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:31: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:32: url: /api/Ajaxes/undefined returns 400
+22.11.201920:12:32: url: /api/Ajaxes/undefined returns 400
+22.11.201920:18:21: url: /api/Ajaxes/undefined returns 400
+22.11.201920:18:22: url: /api/Ajaxes/undefined returns 400
+info: group=all groups, page =1
+22.11.201920:18:29: url: /Cart/Add/1?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201920:18:31: url: /Cart/Add/2?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201920:31:24: url: /Ajaxes?group=3. returns 404
+22.11.201920:32:22: url: /Ajaxes?group=3 returns 404
+info: group=all groups, page =1
+22.11.201920:35:32: url: /Cart/Add/1?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201920:35:33: url: /Cart/Add/2?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201920:35:34: url: /Cart/Add/3?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+22.11.201920:35:39: url: /Cart/Delete/1 returns 302
+22.11.201920:35:40: url: /Cart/Delete/3 returns 302
+22.11.201920:35:40: url: /Cart/Delete/2 returns 302
+22.11.201920:35:43: url: /api/Ajaxes/undefined returns 400
+22.11.201920:41:21: url: /Ajaxes?group=3 returns 404
+22.11.201920:41:24: url: /Ajaxes?group=3 returns 404
+22.11.201920:41:29: url: /api/Ajaxes/undefined returns 405
+22.11.201920:41:30: url: /api/Ajaxes/undefined returns 405
+22.11.201920:41:31: url: /api/Ajaxes/undefined returns 405
+22.11.201920:41:50: url: /api/Ajaxes/5 returns 405
+22.11.201920:41:54: url: /api/Ajaxes/4 returns 405
+22.11.201920:42:04: url: /api/Ajaxes/1 returns 405
+22.11.201920:42:59: url: /api/Ajaxes/2 returns 405
+22.11.201920:44:37: url: /api/Ajaxes/undefined returns 400
+22.11.201920:44:37: url: /api/Ajaxes/undefined returns 400
+22.11.201920:44:39: url: /api/Ajaxes/undefined returns 400
+22.11.201920:44:39: url: /api/Ajaxes/undefined returns 400
+22.11.201920:44:40: url: /api/Ajaxes/undefined returns 400
+22.11.201920:44:41: url: /api/Ajaxes/undefined returns 400
+info: group=all groups, page =1
+info: group=Контроллеры, page =1
+info: group=Рэлле, page =1
+info: group=Средства оповещения, page =1
+User logged in.
+31.12.20210:02:52: url: /Identity/Account/Login returns 302
+info: group=all groups, page =1
+31.12.20210:02:57: url: /Cart/Add/1?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+31.12.20210:02:59: url: /Cart/Add/2?returnUrl=%2FCatalog returns 302
+info: group=all groups, page =1
+31.12.20210:03:06: url: /Cart/Delete/1 returns 302
+31.12.20210:03:07: url: /Cart/Delete/2 returns 302
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=all groups, page =2
+info: group=Датчики пожарные, page =2
+info: group=Датчики водяные, page =2
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=all groups, page =1
+info: group=Контроллеры, page =1
+info: group=Рэлле, page =1
+info: group=all groups, page =1
+31.12.20210:24:31: url: /js/bs-custom-file-input.js returns 404
+31.12.20210:30:45: url: /js/bs-custom-file-input.js returns 404
+info: group=all groups, page =1

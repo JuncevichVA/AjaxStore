@@ -1,0 +1,50 @@
+﻿@page "{id:int}"
+@model laba_1.Areas.Admin.Pages.EditModel
+@section Scripts{
+    <script src="~/js/bs-custom-file-input.js"></script> }
+
+
+<h4>Ajax</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post"enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Ajax.DivicesName" class="control-label"></label>
+                <input asp-for="Ajax.DivicesName" class="form-control" />
+                <span asp-validation-for="Ajax.DivicesName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ajax.Description" class="control-label"></label>
+                <input asp-for="Ajax.Description" class="form-control" />
+                <span asp-validation-for="Ajax.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ajax.detection" class="control-label"></label>
+                <input asp-for="Ajax.detection" class="form-control" />
+                <span asp-validation-for="Ajax.detection" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ajax.Image" class="control-label"></label>
+                <div class="custom-file mt-3"/>
+                    <input type="image"  class="custom-file-input" >       
+                    <label class="custom-file-label" for="customFile"> Выберите файл  </label>
+                    @*<input asp-for="Ajax.Image" class="form-control" />
+            <span asp-validation-for="Ajax.Image" class="text-danger"></span>*@
+            </div>
+                <div class="form-group">
+                    <label asp-for="Ajax.AjaxGroupId" class="control-label"></label>
+                    <select asp-for="Ajax.AjaxGroupId" class="form-control" asp-items="ViewBag.AjaxGroupId"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+</form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
